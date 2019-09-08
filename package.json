@@ -13,6 +13,15 @@
 	},
 	"author": "Paul Hautot",
 	"dependencies": {
-		"@blueprintjs/core": "^3.18.0"
+		"@blueprintjs/core": "^3.18.0",
+		"@types/dom4": "^2.0.1",
+		"classnames": "^2.2.6",
+		"dom4": "^2.1.5",
+		"normalize.css": "^8.0.1",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-transition-group": "^4.3.0",
+		"resize-observer-polyfill": "^1.5.1",
+		"tslib": "^1.10.0"
 	}
 }
