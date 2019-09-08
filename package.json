@@ -1,0 +1,18 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "e29c1ae7-374d-4001-8f2c-5409f949aeb5"
+	},
+	"author": "Paul Hautot",
+	"dependencies": {
+		"@blueprintjs/core": "^3.18.0"
+	}
+}

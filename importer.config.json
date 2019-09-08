@@ -1,0 +1,226 @@
+{
+    "packageName": "@blueprintjs/core",
+    "rootFiles": [
+        "node_modules/@blueprintjs/core/lib/esm/index.d.ts"
+    ],
+    "additionalImports": [],
+    "out": "code/",
+    "components": {
+        "AbstractComponent": {
+            "ignore": false
+        },
+        "AbstractPureComponent": {
+            "ignore": false
+        },
+        "Alert": {
+            "ignore": false
+        },
+        "Breadcrumb": {
+            "ignore": false
+        },
+        "Breadcrumbs": {
+            "ignore": false
+        },
+        "Button": {
+            "ignore": false
+        },
+        "AnchorButton": {
+            "ignore": false
+        },
+        "ButtonGroup": {
+            "ignore": false
+        },
+        "Callout": {
+            "ignore": false
+        },
+        "Card": {
+            "ignore": false
+        },
+        "Collapse": {
+            "ignore": false
+        },
+        "CollapsibleList": {
+            "ignore": false
+        },
+        "Dialog": {
+            "ignore": false
+        },
+        "Divider": {
+            "ignore": false
+        },
+        "Drawer": {
+            "ignore": false
+        },
+        "EditableText": {
+            "ignore": false
+        },
+        "ControlGroup": {
+            "ignore": false
+        },
+        "Switch": {
+            "ignore": false
+        },
+        "Radio": {
+            "ignore": false
+        },
+        "Checkbox": {
+            "ignore": false
+        },
+        "FileInput": {
+            "ignore": false
+        },
+        "FormGroup": {
+            "ignore": false
+        },
+        "InputGroup": {
+            "ignore": false
+        },
+        "NumericInput": {
+            "ignore": false
+        },
+        "RadioGroup": {
+            "ignore": false
+        },
+        "TextArea": {
+            "ignore": false
+        },
+        "H1": {
+            "ignore": false
+        },
+        "H2": {
+            "ignore": false
+        },
+        "H3": {
+            "ignore": false
+        },
+        "H4": {
+            "ignore": false
+        },
+        "H5": {
+            "ignore": false
+        },
+        "H6": {
+            "ignore": false
+        },
+        "Blockquote": {
+            "ignore": false
+        },
+        "Code": {
+            "ignore": false
+        },
+        "Pre": {
+            "ignore": false
+        },
+        "Label": {
+            "ignore": false
+        },
+        "OL": {
+            "ignore": false
+        },
+        "UL": {
+            "ignore": false
+        },
+        "HTMLSelect": {
+            "ignore": false
+        },
+        "HTMLTable": {
+            "ignore": false
+        },
+        "Hotkeys": {
+            "ignore": false
+        },
+        "Icon": {
+            "ignore": false
+        },
+        "Menu": {
+            "ignore": false
+        },
+        "MenuDivider": {
+            "ignore": false
+        },
+        "MenuItem": {
+            "ignore": false
+        },
+        "Navbar": {
+            "ignore": false
+        },
+        "NavbarDivider": {
+            "ignore": false
+        },
+        "NavbarGroup": {
+            "ignore": false
+        },
+        "NavbarHeading": {
+            "ignore": false
+        },
+        "NonIdealState": {
+            "ignore": false
+        },
+        "OverflowList": {
+            "ignore": false
+        },
+        "Overlay": {
+            "ignore": false
+        },
+        "Text": {
+            "ignore": false
+        },
+        "PanelStack": {
+            "ignore": false
+        },
+        "Popover": {
+            "ignore": false
+        },
+        "Portal": {
+            "ignore": false
+        },
+        "ProgressBar": {
+            "ignore": false
+        },
+        "ResizeSensor": {
+            "ignore": false
+        },
+        "MultiSlider": {
+            "ignore": false
+        },
+        "RangeSlider": {
+            "ignore": false
+        },
+        "Slider": {
+            "ignore": false
+        },
+        "Spinner": {
+            "ignore": false
+        },
+        "Tab": {
+            "ignore": false
+        },
+        "Expander": {
+            "ignore": false
+        },
+        "Tabs": {
+            "ignore": false
+        },
+        "Tag": {
+            "ignore": false
+        },
+        "TagInput": {
+            "ignore": false
+        },
+        "Toast": {
+            "ignore": false
+        },
+        "Toaster": {
+            "ignore": false
+        },
+        "Tooltip": {
+            "ignore": false
+        },
+        "Tree": {
+            "ignore": false
+        },
+        "TreeNode": {
+            "ignore": false
+        }
+    }
+}
