@@ -2,7 +2,7 @@ import * as React from "react"
 import * as System from "@blueprintjs/core"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { controls, merge } from "../generated/Blockquote"
-import { withHOC } from "../withaHOC"
+import { withHOC } from "../withHOC"
 
 const style: React.CSSProperties = {
     width: "100%",

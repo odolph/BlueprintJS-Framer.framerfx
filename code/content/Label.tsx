@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as System from "@blueprintjs/core";
-import { ControlType, PropertyControls, addPropertyControls } from "framer";
-import { controls, merge } from "./generated/Label";
-import { withHOC } from "./withHOC";
+import { ControlType, addPropertyControls } from "framer";
+import { controls, merge } from "../generated/Label";
+import { withHOC } from "../withHOC";
 
 const style: React.CSSProperties = {
   width: "100%",
