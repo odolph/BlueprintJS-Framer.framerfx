@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as System from "@blueprintjs/core";
-import { ControlType, PropertyControls, addPropertyControls } from "framer";
+import { ControlType, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/H5";
 import { withHOC } from "../withHOC";
 import {
