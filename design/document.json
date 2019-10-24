@@ -12,11 +12,21 @@
 
         ],
         "clip" : true,
-        "codeComponentIdentifier" : ".\/other\/Icon.tsx_Icon",
+        "codeComponentIdentifier" : ".\/inputs\/Checkbox_Checkbox",
         "codeComponentProps" : {
-          "color" : "hsl(0, 0%, 100%)",
-          "icon" : "flow-branch",
-          "iconSize" : 50
+          "alignIndicator" : "left",
+          "checked" : false,
+          "children" : "",
+          "className" : "",
+          "defaultChecked" : false,
+          "defaultIndeterminate" : false,
+          "disabled" : false,
+          "indeterminate" : false,
+          "inline" : false,
+          "label" : "",
+          "labelElement" : "",
+          "large" : false,
+          "placeholder" : ""
         },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
@@ -27,16 +37,17 @@
         "fillColor" : "rgba(255,255,255,1)",
         "fillEnabled" : false,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 50,
+        "height" : 25,
         "heightType" : 0,
-        "id" : "WtwiMHsPr",
-        "intrinsicHeight" : 50,
-        "intrinsicWidth" : 50,
-        "left" : 286,
+        "id" : "Hc33Gpp9j",
+        "intrinsicHeight" : 25,
+        "intrinsicWidth" : 150,
+        "left" : -213,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -52,9 +63,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 55,
+        "top" : -337,
         "visible" : true,
-        "width" : 50,
+        "width" : 150,
         "widthType" : 0
       }
     ],
@@ -76,5 +87,5 @@
     ],
     "visible" : false
   },
-  "version" : 54
+  "version" : 55
 }

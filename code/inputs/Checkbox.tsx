@@ -3,6 +3,7 @@ import * as System from "@blueprintjs/core";
 import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/Checkbox";
 import { withHOC } from "../withHOC";
+import { Label } from "../content/Label";
 
 const style: React.CSSProperties = {
   width: "100%",
@@ -10,14 +11,18 @@ const style: React.CSSProperties = {
 };
 
 const InnerCheckbox: React.SFC = props => {
-  return <System.Checkbox {...props} style={style} />;
+  return (
+    <System.Checkbox {...props} style={style}>
+      {Label}
+    </System.Checkbox>
+  );
 };
 
 export const Checkbox = withHOC(InnerCheckbox);
 
 Checkbox.defaultProps = {
   width: 150,
-  height: 50
+  height: 25
 };
 
 addPropertyControls(Checkbox, {
@@ -32,7 +37,6 @@ addPropertyControls(Checkbox, {
   label: merge(controls.label, {}),
   labelElement: merge(controls.labelElement, {}),
   large: merge(controls.large, {}),
-  tagName: merge(controls.tagName, {}),
   className: merge(controls.className, {}),
   placeholder: merge(controls.placeholder, {})
 });
