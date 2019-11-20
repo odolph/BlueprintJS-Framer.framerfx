@@ -20,7 +20,9 @@ Button.defaultProps = {
   height: 50
 };
 
-addPropertyControls(Button, {
+export const ButtonPropertyControls: PropertyControls = {
   disabled: merge(controls.disabled, {}),
-  placeholder: merge(controls.placeholder, {})
-});
+  placeholder: merge(controls.placeholder, {}),
+}
+
+addPropertyControls(Button, ButtonPropertyControls)

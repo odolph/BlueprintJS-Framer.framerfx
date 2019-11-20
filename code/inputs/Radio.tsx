@@ -17,20 +17,14 @@ export const Radio = withHOC(InnerRadio);
 
 Radio.defaultProps = {
   width: 150,
-  height: 50
+  height: 25
+
 };
 
 addPropertyControls(Radio, {
   alignIndicator: merge(controls.alignIndicator, {}),
   checked: merge(controls.checked, {}),
-  children: merge(controls.children, {}),
-  defaultChecked: merge(controls.defaultChecked, {}),
   disabled: merge(controls.disabled, {}),
   inline: merge(controls.inline, {}),
-  label: merge(controls.label, {}),
-  labelElement: merge(controls.labelElement, {}),
-  large: merge(controls.large, {}),
-  tagName: merge(controls.tagName, {}),
-  className: merge(controls.className, {}),
-  placeholder: merge(controls.placeholder, {})
+  label: merge(controls.label, {defaultValue: "Radio"}),
 });
