@@ -4,15 +4,21 @@ import * as System from "@blueprintjs/core"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { controls, merge } from "../generated/Checkbox"
 import { withHOC } from "../withHOC"
+import { LabelPropertyControl } from "../utils/PropertyControls"
+import { useManagedState } from "../utils/useManagedState"
 
 const style: React.CSSProperties = {
     width: "100%",
     height: "100%",
 }
 
-const InnerCheckbox: React.SFC = props => {
-
-    return <System.Checkbox {...props} style={style} />
+const InnerCheckbox: React.SFC<any> = ({ checked, label, ...props }) => {
+  const [currentlyChecked, setChecked] = useManagedState(checked)
+  return (
+    <System.Checkbox checked={currentlyChecked} onChange={e => setChecked(e.target["checked"])} {...props}>
+      {label}
+    </System.Checkbox>
+  )
 }
 
 export const Checkbox = withHOC(InnerCheckbox)
@@ -30,10 +36,5 @@ addPropertyControls(Checkbox, {
   children: merge(controls.children, {}),
   defaultChecked: merge(controls.defaultChecked, {}),
   disabled: merge(controls.disabled, {}),
-  inline: merge(controls.inline, {}),
-  label: merge(controls.label, {}),
-  labelElement: merge(controls.labelElement, {}),
-  large: merge(controls.large, {}),
-  className: merge(controls.className, {}),
-  placeholder: merge(controls.placeholder, {})
+  ...LabelPropertyControl,
 });

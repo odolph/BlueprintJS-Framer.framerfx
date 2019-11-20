@@ -4,13 +4,9 @@ import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/NumericInput";
 import { withHOC } from "../withHOC";
 
-const style: React.CSSProperties = {
-  width: "100%",
-  height: "100%"
-};
 
 const InnerNumericInput: React.SFC = props => {
-  return <System.NumericInput {...props} style={style} />;
+  return <System.NumericInput {...props} />;
 };
 
 export const NumericInput = withHOC(InnerNumericInput);
