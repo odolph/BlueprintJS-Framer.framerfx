@@ -5,7 +5,7 @@ import { controls, merge } from "../generated/NumericInput";
 import { withHOC } from "../withHOC";
 
 
-const InnerNumericInput: React.SFC = props => {
+const InnerNumericInput: React.SFC<any> = ({label , ...props}) => {
   return <System.NumericInput {...props} />;
 };
 
@@ -34,6 +34,5 @@ addPropertyControls(NumericInput, {
   minorStepSize: merge(controls.minorStepSize, {}),
   selectAllOnFocus: merge(controls.selectAllOnFocus, {}),
   selectAllOnIncrement: merge(controls.selectAllOnIncrement, {}),
-  stepSize: merge(controls.stepSize, {}),
   intent: merge(controls.intent, {})
 });
