@@ -3,30 +3,25 @@ import * as System from "@blueprintjs/core";
 import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/TextArea";
 import { withHOC } from "../withHOC";
+import { useManagedState } from "../utils/useManagedState";
 
-const style: React.CSSProperties = {
-  width: "100%",
-  height: "100%"
-};
-
-const InnerTextArea: React.SFC = props => {
-  return <System.TextArea {...props} style={style} />;
+const InnerTextArea: React.SFC<any> = ({ value, ...props}) => {
+  const [currentValue, setValue] = useManagedState(value)
+  return <System.TextArea value={currentValue} onChange={e => setValue(e.target["value"])} {...props} />;
 };
 
 export const TextArea = withHOC(InnerTextArea);
 
 TextArea.defaultProps = {
-  width: 150,
-  height: 50
+  width: 300,
+  height: 150
 };
 
 addPropertyControls(TextArea, {
-  fill: merge(controls.fill, {}),
   large: merge(controls.large, {}),
-  small: merge(controls.small, {}),
+  fill: merge(controls.fill, { defaultValue: "default"}),
   growVertically: merge(controls.growVertically, {}),
   intent: merge(controls.intent, {}),
-  className: merge(controls.className, {}),
   disabled: merge(controls.disabled, {}),
-  placeholder: merge(controls.placeholder, {})
+  placeholder: merge(controls.placeholder, { defaultValue: "Placeholder!"}),
 });
