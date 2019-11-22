@@ -125,6 +125,79 @@
             "visible" : true,
             "width" : 150,
             "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -58,
+            "centerAnchorX" : 0.64772727272727271,
+            "centerAnchorY" : 0.95886075949367089,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/inputs\/RadioGroup_RadioGroup",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "inline" : true,
+              "items" : [
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "First"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Second"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Third"
+                }
+              ],
+              "label" : ""
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 142,
+            "heightType" : 0,
+            "id" : "yIJGHKzXb",
+            "intrinsicHeight" : 50,
+            "intrinsicWidth" : 150,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "lWIwQMOif",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 43,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 162,
+            "widthType" : 0
           }
         ],
         "clip" : true,
