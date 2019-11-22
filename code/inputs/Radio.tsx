@@ -3,14 +3,16 @@ import * as System from "@blueprintjs/core";
 import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/Radio";
 import { withHOC } from "../withHOC";
+import { useManagedState } from "../utils/useManagedState"
+import { LabelPropertyControl } from "../utils/PropertyControls"
 
-const style: React.CSSProperties = {
-  width: "100%",
-  height: "100%"
-};
-
-const InnerRadio: React.SFC = props => {
-  return <System.Radio {...props} style={style} />;
+const InnerRadio: React.SFC<any> = ({ items, checked, label,  ...props }) => {
+  const [currentlyChecked, setChecked] = useManagedState (checked)
+  return (
+    <System.Radio checked={currentlyChecked} onChange={e => setChecked(e.target["checked"])} {...props}>
+      {label}
+    </System.Radio>
+  )
 };
 
 export const Radio = withHOC(InnerRadio);
@@ -22,9 +24,7 @@ Radio.defaultProps = {
 };
 
 addPropertyControls(Radio, {
-  alignIndicator: merge(controls.alignIndicator, {}),
   checked: merge(controls.checked, {}),
   disabled: merge(controls.disabled, {}),
-  inline: merge(controls.inline, {}),
-  label: merge(controls.label, {defaultValue: "Radio"}),
+  ...LabelPropertyControl
 });
