@@ -26,7 +26,7 @@ export const H3 = withHOC(InnerH3);
 
 H3.defaultProps = {
   width: 360,
-  height: 200
+  height: 25
 };
 
 addPropertyControls(H3, {

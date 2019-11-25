@@ -32,7 +32,7 @@ export const Label = compose(
 
 Label.defaultProps = {
   width: 150,
-  height: 50,
+  height: 25,
   valuePropName: "text"
 };
 

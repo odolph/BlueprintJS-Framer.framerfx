@@ -26,7 +26,7 @@ export const H4 = withHOC(InnerH4);
 
 H4.defaultProps = {
   width: 360,
-  height: 200
+  height: 25
 };
 
 addPropertyControls(H4, {

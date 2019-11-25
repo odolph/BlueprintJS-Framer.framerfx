@@ -30,7 +30,7 @@ export const H6 = withHOC(InnerH6);
 
 H6.defaultProps = {
   width: 360,
-  height: 200
+  height: 25
 };
 
 addPropertyControls(H6, {

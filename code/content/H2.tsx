@@ -26,7 +26,7 @@ export const H2 = withHOC(InnerH2);
 
 H2.defaultProps = {
   width: 360,
-  height: 200
+  height: 25
 };
 
 addPropertyControls(H2, {

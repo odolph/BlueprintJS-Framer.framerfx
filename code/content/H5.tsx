@@ -26,7 +26,7 @@ export const H5 = withHOC(InnerH5);
 
 H5.defaultProps = {
   width: 360,
-  height: 200
+  height: 25
 };
 
 addPropertyControls(H5, {
