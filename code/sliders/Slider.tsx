@@ -5,9 +5,14 @@ import { controls, merge } from "../generated/Slider";
 import { withHOC } from "../withHOC";
 import { useManagedState } from "../utils/useManagedState";
 
+const style: React.CSSProperties = {
+  width: "100%",
+  height: 40,
+};
+
 const InnerSlider: React.SFC<any> = ({value, ...props}) => {
   const [currentValue, setValue] = useManagedState(value)
-  return <System.Slider value={currentValue} onChange={e => setValue(e.valueOf)} {...props} />
+  return <System.Slider value={currentValue} style={style} onChange={e => setValue(e.valueOf)} {...props} />
 };
 
 export const Slider = withHOC(InnerSlider);
