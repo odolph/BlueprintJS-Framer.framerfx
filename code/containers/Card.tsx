@@ -21,8 +21,12 @@ Card.defaultProps = {
 };
 
 addPropertyControls(Card, {
-  elevation: merge(controls.elevation, {}),
+  elevation: {
+    title: "Elevation",
+    defaultValue: 0,
+    min: 0,
+    max: 4,
+    type: ControlType.Number
+  },
   interactive: merge(controls.interactive, {}),
-  className: merge(controls.className, {}),
-  placeholder: merge(controls.placeholder, {})
 });
