@@ -3,7 +3,6 @@ import * as System from "@blueprintjs/core"
 import { ControlType, addPropertyControls } from "framer"
 import { controls, merge } from "../generated/Button"
 import { withHOC } from "../withHOC"
-import { LabelPropertyControl } from "../utils/PropertyControls"
 
 const style: React.CSSProperties = {
     width: "100%",
@@ -22,15 +21,6 @@ Button.defaultProps = {
 }
 
 addPropertyControls(Button, {
-    active: merge(controls.active, {}),
-    fill: merge(controls.fill, {}),
-    icon: merge(controls.icon, {}),
-    interactive: merge(controls.interactive, {}),
-    large: merge(controls.large, {}),
-    minimal: merge(controls.minimal, {}),
-    multiline: merge(controls.multiline, {}),
-    rightIcon: merge(controls.rightIcon, {}),
-    round: merge(controls.round, {}),
     intent: {
         title: "Intent",
         options: ["none", "primary", "success", "warning", "danger"],
@@ -39,6 +29,23 @@ addPropertyControls(Button, {
         type: ControlType.Enum
     },
     disabled: merge(controls.disabled, {}),
-    placeholder: merge(controls.placeholder, {}),
-    ...LabelPropertyControl
+    icon: {
+        title: "Icon",
+        options: ["none", "trash", "heart", "cross", "link"],
+        optionTitles: ["None", "Trash", "Heart", "Cross", "Link"],
+        defaultValue: "none",
+        type: ControlType.Enum
+    },
+    rightIcon: {
+        title: "Right Icon",
+        options: ["none", "trash", "caret-down", "heart", "cross", "link"],
+        optionTitles: ["None", "Trash", "Caret-Down", "Heart", "Cross", "Link"],
+        defaultValue: "none",
+        type: ControlType.Enum
+    },
+    text: {
+        title: "Title",
+        defaultValue: "Button",
+        type: ControlType.String
+    }
     });

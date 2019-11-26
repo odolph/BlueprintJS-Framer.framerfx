@@ -19,9 +19,7 @@ export const Slider = withHOC(InnerSlider);
 
 Slider.defaultProps = {
   width: 150,
-  height: 50,
-  stepSize: 1,
-  labelStepSize: 1,
+  height: 40,
 };
 
 addPropertyControls(Slider, {
