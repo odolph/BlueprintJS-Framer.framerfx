@@ -9,7 +9,7 @@ const style: React.CSSProperties = {
   height: "100%"
 };
 
-const InnerRangeSlider: React.SFC = props => {
+const InnerRangeSlider: React.SFC<any> = props => {
   return <System.RangeSlider {...props} style={style} />;
 };
 
@@ -17,7 +17,7 @@ export const RangeSlider = withHOC(InnerRangeSlider);
 
 RangeSlider.defaultProps = {
   width: 150,
-  height: 50
+  height: 40
 };
 
 addPropertyControls(RangeSlider, {
