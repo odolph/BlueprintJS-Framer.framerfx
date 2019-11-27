@@ -2572,7 +2572,7 @@
             "codeComponentIdentifier" : ".\/inputs\/RadioGroup_RadioGroup",
             "codeComponentProps" : {
               "disabled" : true,
-              "inline" : false,
+              "inline" : true,
               "items" : [
                 {
                   "enabled" : true,
