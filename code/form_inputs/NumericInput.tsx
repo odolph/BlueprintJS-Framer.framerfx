@@ -3,10 +3,11 @@ import * as System from "@blueprintjs/core";
 import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/NumericInput";
 import { withHOC } from "../withHOC";
+import { useManagedState } from "../utils/useManagedState";
 
-
-const InnerNumericInput: React.SFC<any> = ({label , ...props}) => {
-  return <System.NumericInput {...props} />;
+const InnerNumericInput: React.SFC<any> = ({value , ...props}) => {
+  const [currentValue, setValue] = useManagedState(value)
+  return <System.NumericInput value={currentValue} onValueChange={e => setValue(e.valueOf)} {...props}/>;
 };
 
 export const NumericInput = withHOC(InnerNumericInput);
@@ -23,11 +24,8 @@ addPropertyControls(NumericInput, {
   min: merge(controls.min, {}),
   placeholder: merge(controls.placeholder, {}),
   value: merge(controls.value, {}),
-  className: merge(controls.className, {}),
-  allowNumericCharactersOnly: merge(controls.allowNumericCharactersOnly, {}),
   buttonPosition: merge(controls.buttonPosition, {}),
   clampValueOnBlur: merge(controls.clampValueOnBlur, {}),
-  fill: merge(controls.fill, {}),
   large: merge(controls.large, {}),
   leftIcon: merge(controls.leftIcon, {}),
   majorStepSize: merge(controls.majorStepSize, {}),

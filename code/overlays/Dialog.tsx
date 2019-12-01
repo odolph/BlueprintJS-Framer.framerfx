@@ -1,7 +1,7 @@
 import * as React from "react"
 import * as System from "@blueprintjs/core"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
-import { controls, merge } from "./generated/Dialog"
+import { controls, merge } from "../generated/Dialog"
 import { withHOC } from "../withHOC"
 
 const style: React.CSSProperties = {
