@@ -4,7 +4,7 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 
 ### Getting Started
 1. Clone this repository `https://github.com/odolph/BlueprintJS-Framer.framerfx.git`
-2. Doubble click to open with Framer X.
+2. Double click to open with Framer X.
 
 
 ### Contents
