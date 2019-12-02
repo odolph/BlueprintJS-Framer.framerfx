@@ -16,13 +16,12 @@ const InnerIcon: React.SFC = props => {
 export const Icon = withHOC(InnerIcon);
 
 Icon.defaultProps = {
-  width: 50,
-  height: 50,
-  color: "white"
+  width: 25,
+  height: 25,
 };
 
 addPropertyControls(Icon, {
-  color: { type: ControlType.Color, defaultValue: "#ffffff", title: "Color" },
+  color: { type: ControlType.Color, defaultValue: "#182026", title: "Color" },
   icon: merge(controls.icon, {}),
-  iconSize: merge(controls.iconSize, { defaultValue: 50 })
+  iconSize: merge(controls.iconSize, { defaultValue: 25 })
 });

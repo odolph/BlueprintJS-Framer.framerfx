@@ -16,14 +16,15 @@ const InnerSpinner: React.SFC = props => {
 export const Spinner = withHOC(InnerSpinner);
 
 Spinner.defaultProps = {
-  width: 150,
-  height: 50
+  width: 50,
+  height: 50,
+  value: .5,
 };
 
 addPropertyControls(Spinner, {
   size: merge(controls.size, {}),
   tagName: merge(controls.tagName, {}),
-  value: merge(controls.value, {}),
+  value: merge(controls.value, {stepSize: 0.1}),
   className: merge(controls.className, {}),
   intent: merge(controls.intent, {})
 });
