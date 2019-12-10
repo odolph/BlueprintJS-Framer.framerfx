@@ -1508,7 +1508,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.38490566037735852,
-            "centerAnchorY" : 0.13993710691823899,
+            "centerAnchorY" : 0.13364779874213836,
             "children" : [
 
             ],
@@ -1553,7 +1553,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 32,
+            "top" : 30,
             "visible" : true,
             "width" : 360,
             "widthType" : 0
@@ -1563,7 +1563,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.38490566037735852,
-            "centerAnchorY" : 0.3191823899371069,
+            "centerAnchorY" : 0.31289308176100628,
             "children" : [
 
             ],
@@ -1608,7 +1608,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 89,
+            "top" : 87,
             "visible" : true,
             "width" : 360,
             "widthType" : 0
@@ -1618,7 +1618,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.38490566037735852,
-            "centerAnchorY" : 0.47327044025157233,
+            "centerAnchorY" : 0.46698113207547171,
             "children" : [
 
             ],
@@ -1663,7 +1663,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 138,
+            "top" : 136,
             "visible" : true,
             "width" : 360,
             "widthType" : 0
@@ -1671,9 +1671,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 106,
+            "bottom" : 108,
             "centerAnchorX" : 0.38490566037735852,
-            "centerAnchorY" : 0.62735849056603776,
+            "centerAnchorY" : 0.62106918238993714,
             "children" : [
 
             ],
@@ -1726,9 +1726,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 61,
+            "bottom" : 63,
             "centerAnchorX" : 0.38490566037735852,
-            "centerAnchorY" : 0.76886792452830188,
+            "centerAnchorY" : 0.76257861635220126,
             "children" : [
 
             ],
@@ -1781,9 +1781,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 20,
+            "bottom" : 22,
             "centerAnchorX" : 0.38490566037735852,
-            "centerAnchorY" : 0.89779874213836475,
+            "centerAnchorY" : 0.89150943396226412,
             "children" : [
 
             ],
@@ -2095,6 +2095,11 @@
                   "enabled" : true,
                   "type" : "string",
                   "value" : "Third"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Fourth"
                 }
               ],
               "label" : "Default Label"
@@ -2168,6 +2173,11 @@
                   "enabled" : true,
                   "type" : "string",
                   "value" : "Third"
+                },
+                {
+                  "enabled" : true,
+                  "type" : "string",
+                  "value" : "Fourth"
                 }
               ],
               "label" : "Default Label"
@@ -6988,8 +6998,8 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.25133689839572193,
+            "centerAnchorX" : 0.63773584905660374,
+            "centerAnchorY" : 0.26203208556149732,
             "children" : [
 
             ],
@@ -7037,11 +7047,193 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
+            "right" : 29,
+            "rotation" : 0,
+            "top" : 25,
+            "visible" : true,
+            "width" : 326,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 4,
+            "centerAnchorX" : 0.099056603773584911,
+            "centerAnchorY" : 0.5401069518716578,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/form_controls\/Slider.tsx_Slider",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "labelPrecision" : 0,
+              "max" : 7,
+              "min" : 0,
+              "stepSize" : 1,
+              "value" : 6,
+              "vertical" : true
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 164,
+            "heightType" : 0,
+            "id" : "qpPWPDTTm",
+            "intrinsicHeight" : 40,
+            "intrinsicWidth" : 150,
+            "left" : 22,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "kKvqQdd5h",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 23,
+            "top" : 19,
             "visible" : true,
-            "width" : 300,
+            "width" : 61,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 30,
+            "centerAnchorX" : 0.63773584905660374,
+            "centerAnchorY" : 0.70588235294117652,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/form_controls\/RangeSlider.tsx_RangeSlider",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "labelPrecision" : 0,
+              "labelStepSize" : 1,
+              "max" : 10,
+              "min" : 0,
+              "showTrackFill" : true,
+              "stepSize" : 1,
+              "vertical" : false
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 50,
+            "heightType" : 0,
+            "id" : "KgMt_GQ7t",
+            "intrinsicHeight" : 50,
+            "intrinsicWidth" : 150,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "kKvqQdd5h",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 29,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 326,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 11,
+            "centerAnchorX" : 0.21886792452830189,
+            "centerAnchorY" : 0.52139037433155078,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/form_controls\/RangeSlider.tsx_RangeSlider",
+            "codeComponentProps" : {
+              "disabled" : false,
+              "labelPrecision" : 0,
+              "labelStepSize" : 1,
+              "max" : 8,
+              "min" : 0,
+              "showTrackFill" : true,
+              "stepSize" : 1,
+              "vertical" : true
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 157,
+            "heightType" : 0,
+            "id" : "iEV_IAVAq",
+            "intrinsicHeight" : 50,
+            "intrinsicWidth" : 150,
+            "left" : 90,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "kKvqQdd5h",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 19,
+            "visible" : true,
+            "width" : 52,
             "widthType" : 0
           }
         ],
@@ -8032,6 +8224,61 @@
         "top" : 88,
         "visible" : true,
         "width" : 530,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/form_controls\/PanelStack.tsx_PanelStack",
+        "codeComponentProps" : {
+          "className" : "",
+          "showPanelHeader" : false
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImageOriginalName" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 50,
+        "heightType" : 0,
+        "id" : "k_DrEYkTO",
+        "intrinsicHeight" : 50,
+        "intrinsicWidth" : 150,
+        "left" : 851,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "C7H1M2Ghj",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -385,
+        "visible" : true,
+        "width" : 150,
         "widthType" : 0
       }
     ],
