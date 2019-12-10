@@ -17,7 +17,13 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 
 ###  Not Included
 - PanelStack
-- ...
+- abstract component
+- abstract pure component
+- expander
+- hotkeys
+- nonideal state
+- pre
+- resize sensor
 
 ###  Known Issues 🚧
 - Slider interaction broken in preview
