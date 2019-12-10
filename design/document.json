@@ -3578,7 +3578,7 @@
             "codeComponentProps" : {
               "intent" : "success",
               "size" : 24,
-              "value" : 0.5
+              "value" : 0.20000000000000001
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
