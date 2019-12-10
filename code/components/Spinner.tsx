@@ -22,9 +22,7 @@ Spinner.defaultProps = {
 };
 
 addPropertyControls(Spinner, {
+  intent: merge(controls.intent, {}),
   size: merge(controls.size, {}),
-  tagName: merge(controls.tagName, {}),
-  value: merge(controls.value, {stepSize: 0.1}),
-  className: merge(controls.className, {}),
-  intent: merge(controls.intent, {})
+  value: merge(controls.value, {step: 0.1}),
 });

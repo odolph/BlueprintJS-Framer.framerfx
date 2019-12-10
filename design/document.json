@@ -3293,10 +3293,9 @@
             "codeComponentIdentifier" : ".\/components\/ProgressBar_ProgressBar",
             "codeComponentProps" : {
               "animate" : true,
-              "className" : "",
               "intent" : "primary",
               "stripes" : true,
-              "value" : 1
+              "value" : 0.80000000000000004
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3351,10 +3350,9 @@
             "codeComponentIdentifier" : ".\/components\/ProgressBar_ProgressBar",
             "codeComponentProps" : {
               "animate" : true,
-              "className" : "",
               "intent" : "success",
               "stripes" : true,
-              "value" : 1
+              "value" : 0.69999999999999996
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3409,7 +3407,6 @@
             "codeComponentIdentifier" : ".\/components\/ProgressBar_ProgressBar",
             "codeComponentProps" : {
               "animate" : true,
-              "className" : "",
               "intent" : "danger",
               "stripes" : true,
               "value" : 1
@@ -3467,7 +3464,6 @@
             "codeComponentIdentifier" : ".\/components\/ProgressBar_ProgressBar",
             "codeComponentProps" : {
               "animate" : false,
-              "className" : "",
               "intent" : "primary",
               "stripes" : false,
               "value" : 0
@@ -3524,10 +3520,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/components\/Spinner_Spinner",
             "codeComponentProps" : {
-              "className" : "",
               "intent" : "none",
               "size" : 24,
-              "tagName" : "symbol",
               "value" : 0.5
             },
             "codeOverrideEnabled" : false,
@@ -3582,10 +3576,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/components\/Spinner_Spinner",
             "codeComponentProps" : {
-              "className" : "",
               "intent" : "success",
               "size" : 24,
-              "tagName" : "symbol",
               "value" : 0.5
             },
             "codeOverrideEnabled" : false,
@@ -3640,11 +3632,9 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/components\/Spinner_Spinner",
             "codeComponentProps" : {
-              "className" : "",
               "intent" : "primary",
               "size" : 36,
-              "tagName" : "symbol",
-              "value" : 0.5
+              "value" : 0.90000000000000002
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3698,11 +3688,9 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/components\/Spinner_Spinner",
             "codeComponentProps" : {
-              "className" : "",
               "intent" : "danger",
               "size" : 36,
-              "tagName" : "symbol",
-              "value" : 0.5
+              "value" : 0.80000000000000004
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,

@@ -21,9 +21,8 @@ ProgressBar.defaultProps = {
 };
 
 addPropertyControls(ProgressBar, {
+  intent: merge(controls.intent, {}),
   animate: merge(controls.animate, {}),
   stripes: merge(controls.stripes, {}),
-  value: merge(controls.value, {}),
-  className: merge(controls.className, {}),
-  intent: merge(controls.intent, {})
+  value: merge(controls.value, {step: 0.1}),
 });
