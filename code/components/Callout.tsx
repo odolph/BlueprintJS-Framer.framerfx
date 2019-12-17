@@ -24,6 +24,4 @@ addPropertyControls(Callout, {
   icon: merge(controls.icon, {}),
   intent: merge(controls.intent, {}),
   title: merge(controls.title, {}),
-  className: merge(controls.className, {}),
-  placeholder: merge(controls.placeholder, {})
 });

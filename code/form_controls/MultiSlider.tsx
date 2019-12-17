@@ -19,7 +19,6 @@ export const MultiSlider = withHOC(InnerMultiSlider);
 MultiSlider.defaultProps = {
   width: 150,
   height: 50,
-  value: [2,4,6,8],
 };
 
 addPropertyControls(MultiSlider, {
@@ -32,4 +31,4 @@ addPropertyControls(MultiSlider, {
   min: merge(controls.min, { defaultValue: 0, displayStepper: true }),
   stepSize: merge(controls.stepSize, { defaultValue: 1, displayStepper: true }),
   vertical: merge(controls.vertical, {}),
-});
+}); 

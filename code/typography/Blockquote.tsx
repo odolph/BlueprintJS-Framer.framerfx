@@ -3,14 +3,19 @@ import * as System from "@blueprintjs/core"
 import { ControlType, PropertyControls, addPropertyControls } from "framer"
 import { controls, merge } from "../generated/Blockquote"
 import { withHOC } from "../withHOC"
+import { TextPropertyControl } from "../utils/PropertyControls"
 
 const style: React.CSSProperties = {
     width: "100%",
     height: "50%",
 }
 
-const InnerBlockquote: React.SFC = props => {
-    return <System.Blockquote {...props} style={style} />
+const InnerBlockquote: React.SFC<any> = ({
+    text,
+    ["children"]: _,
+    willChangeTransform: __,
+    ...props}) => {
+    return <System.Blockquote {...props}>{text}</System.Blockquote>;
 }
 
 export const Blockquote = withHOC(InnerBlockquote)
@@ -23,5 +28,5 @@ Blockquote.defaultProps = {
 addPropertyControls(Blockquote, {
     checked: merge(controls.checked, {}),
     disabled: merge(controls.disabled, {}),
-    placeholder: merge(controls.placeholder, {}),
+    ...TextPropertyControl,
 })
