@@ -24,6 +24,8 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 - nonideal state
 - pre
 - resize sensor
+- form group
+- control group
 
 ###  Known Issues 🚧
 - Slider interaction broken in preview
