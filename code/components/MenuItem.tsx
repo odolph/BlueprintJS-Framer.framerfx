@@ -16,13 +16,13 @@ const InnerMenuItem: React.SFC = props => {
 export const MenuItem = withHOC(InnerMenuItem);
 
 MenuItem.defaultProps = {
-  width: 150,
+  width: 300,
   height: 50
 };
 
 addPropertyControls(MenuItem, {
   text: merge(controls.text, {}),
-  active: merge(controls.active, {}),
+  active: merge(controls.active, {defaultValue: true}),
   children: merge(controls.children, {}),
   disabled: merge(controls.disabled, {}),
   label: merge(controls.label, {}),
@@ -34,8 +34,5 @@ addPropertyControls(MenuItem, {
   textClassName: merge(controls.textClassName, {}),
   icon: merge(controls.icon, {}),
   intent: merge(controls.intent, {}),
-  className: merge(controls.className, {}),
-  href: merge(controls.href, {}),
-  target: merge(controls.target, {}),
   placeholder: merge(controls.placeholder, {})
 });

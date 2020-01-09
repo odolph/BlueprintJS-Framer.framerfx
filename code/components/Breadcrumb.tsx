@@ -10,23 +10,39 @@ const style: React.CSSProperties = {
 };
 
 const InnerBreadcrumb: React.SFC = props => {
-  return <System.Breadcrumb {...props} style={style} />;
+  let text = props.text.map((item, index) => {
+    return (
+      <a id={index} href="javascript:void(0);">
+        {item}
+      </a>
+    );
+  });
+
+  return (
+    <System.Breadcrumb
+      {...props}
+      style={style}
+      text={text}
+    />
+  );
 };
 
 export const Breadcrumb = withHOC(InnerBreadcrumb);
 
 Breadcrumb.defaultProps = {
-  width: 150,
+  width: 300,
   height: 50
 };
 
 addPropertyControls(Breadcrumb, {
   current: merge(controls.current, {}),
   disabled: merge(controls.disabled, {}),
-  icon: merge(controls.icon, {}),
-  text: merge(controls.text, {}),
-  intent: merge(controls.intent, {}),
-  className: merge(controls.className, {}),
-  href: merge(controls.href, {}),
-  target: merge(controls.target, {})
+  text: {
+    type: ControlType.Array,
+    title: "Text",
+    propertyControl: {
+      type: ControlType.String
+    },
+    defaultValue: ["Parent Entity", "Parent Record Name"]
+  }
 });

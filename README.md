@@ -26,6 +26,18 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 - resize sensor
 - form group
 - control group
+- breadcrumbs
+- toaster
+- button group
+- overflow list
+- UL
+- OL 
+- popover
+- portal
+- alert
+- dialog
+- 
+
 
 ###  Known Issues 🚧
 - Slider interaction broken in preview

@@ -9,7 +9,7 @@ const style: React.CSSProperties = {
   height: "100%"
 };
 
-const InnerTooltip: React.SFC = props => {
+const InnerTooltip: React.SFC<any> = props => {
   return <System.Tooltip {...props} style={style} />;
 };
 
@@ -27,23 +27,7 @@ addPropertyControls(Tooltip, {
   interactionKind: merge(controls.interactionKind, {}),
   transitionDuration: merge(controls.transitionDuration, {}),
   boundary: merge(controls.boundary, {}),
-  captureDismiss: merge(controls.captureDismiss, {}),
   defaultIsOpen: merge(controls.defaultIsOpen, {}),
   disabled: merge(controls.disabled, {}),
-  inheritDarkTheme: merge(controls.inheritDarkTheme, {}),
-  isOpen: merge(controls.isOpen, {}),
-  openOnTargetFocus: merge(controls.openOnTargetFocus, {}),
-  popoverClassName: merge(controls.popoverClassName, {}),
-  position: merge(controls.position, {}),
-  targetClassName: merge(controls.targetClassName, {}),
-  targetTagName: merge(controls.targetTagName, {}),
-  usePortal: merge(controls.usePortal, {}),
-  wrapperTagName: merge(controls.wrapperTagName, {}),
-  autoFocus: merge(controls.autoFocus, {}),
-  canEscapeKeyClose: merge(controls.canEscapeKeyClose, {}),
-  enforceFocus: merge(controls.enforceFocus, {}),
-  lazy: merge(controls.lazy, {}),
-  portalClassName: merge(controls.portalClassName, {}),
-  className: merge(controls.className, {}),
   intent: merge(controls.intent, {})
 });
