@@ -36,7 +36,10 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 - portal
 - alert
 - dialog
-- 
+- tooltip
+- overlay
+- drawer
+
 
 
 ###  Known Issues 🚧
