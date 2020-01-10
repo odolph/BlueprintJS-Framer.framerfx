@@ -9,8 +9,13 @@ const style: React.CSSProperties = {
   height: "100%"
 };
 
-const InnerTag: React.SFC = props => {
-  return <System.Tag {...props} style={style} />;
+const InnerTag: React.SFC<any> = ({
+  text,
+  ["children"]: _,
+  willChangeTransform: __,
+  ...props
+}) => {
+  return <System.Tag {...props}>{text}</System.Tag>;
 };
 
 export const Tag = withHOC(InnerTag);
@@ -23,14 +28,17 @@ Tag.defaultProps = {
 addPropertyControls(Tag, {
   active: merge(controls.active, {}),
   fill: merge(controls.fill, {}),
-  icon: merge(controls.icon, {}),
+  icon: merge(controls.icon, {defaultValue: "none"}),
   interactive: merge(controls.interactive, {}),
-  large: merge(controls.large, {}),
+  large: merge(controls.large, {defaultValue: true}),
   minimal: merge(controls.minimal, {}),
   multiline: merge(controls.multiline, {}),
-  rightIcon: merge(controls.rightIcon, {}),
+  rightIcon: merge(controls.rightIcon, {defaultValue: "ross"}),
   round: merge(controls.round, {}),
-  className: merge(controls.className, {}),
   intent: merge(controls.intent, {}),
-  placeholder: merge(controls.placeholder, {})
+  text: {
+    title: "Title",
+    defaultValue: "Default",
+    type: ControlType.String
+}
 });
