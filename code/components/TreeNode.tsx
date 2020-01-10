@@ -10,27 +10,24 @@ const style: React.CSSProperties = {
 };
 
 const InnerTreeNode: React.SFC = props => {
-  return <System.TreeNode {...props} style={style} />;
+  return <System.TreeNode {...props}/>;
 };
 
 export const TreeNode = withHOC(InnerTreeNode);
 
 TreeNode.defaultProps = {
   width: 150,
-  height: 50
+  height: 30,
 };
 
 addPropertyControls(TreeNode, {
-  children: merge(controls.children, {}),
   depth: merge(controls.depth, {}),
-  key: merge(controls.key, {}),
   disabled: merge(controls.disabled, {}),
-  hasCaret: merge(controls.hasCaret, {}),
-  icon: merge(controls.icon, {}),
-  id: merge(controls.id, {}),
+  hasCaret: merge(controls.hasCaret, {defaultValue: true}),
+  icon: merge(controls.icon, {defaultValue: "folder-close"}),
   isExpanded: merge(controls.isExpanded, {}),
   isSelected: merge(controls.isSelected, {}),
-  label: merge(controls.label, {}),
+  label: merge(controls.label, {defaultValue: "Folder 0"}),
   secondaryLabel: merge(controls.secondaryLabel, {}),
-  className: merge(controls.className, {})
+  intent: merge(controls.intent, {})
 });

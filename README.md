@@ -39,11 +39,26 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 - tooltip
 - overlay
 - drawer
-
+- divider
+- editable text
+- text
+- tree
+- NavbarHeading
+- NavbarGroup
+- Collapse
+- CollapsableList
+- HtmlTable
+- Tab
+- Tabs
+- AnchorButton
+- Menu
+- Navbar
+- NavbarDivider
 
 
 ###  Known Issues 🚧
 - Slider interaction broken in preview
-- ...
+- Icon components are not yet responsive to removing icon
+- Weird dot rendering in menu and tree items
 
 

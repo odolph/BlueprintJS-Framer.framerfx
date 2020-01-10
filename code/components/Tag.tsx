@@ -23,7 +23,7 @@ export const Tag = withHOC(InnerTag);
 
 Tag.defaultProps = {
   width: 120,
-  height: 32,
+  height: 30,
 };
 
 addPropertyControls(Tag, {
