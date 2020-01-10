@@ -10,29 +10,22 @@ const style: React.CSSProperties = {
 };
 
 const InnerMenuItem: React.SFC = props => {
-  return <System.MenuItem {...props} style={style} />;
+  return <System.MenuItem {...props} />;
 };
 
 export const MenuItem = withHOC(InnerMenuItem);
 
 MenuItem.defaultProps = {
-  width: 300,
-  height: 50
+  width: 150,
+  height: 30
 };
 
 addPropertyControls(MenuItem, {
-  text: merge(controls.text, {}),
+  text: merge(controls.text, {defaultValue: "Settings"}),
   active: merge(controls.active, {defaultValue: true}),
-  children: merge(controls.children, {}),
   disabled: merge(controls.disabled, {}),
   label: merge(controls.label, {}),
-  labelClassName: merge(controls.labelClassName, {}),
-  labelElement: merge(controls.labelElement, {}),
   multiline: merge(controls.multiline, {}),
-  shouldDismissPopover: merge(controls.shouldDismissPopover, {}),
-  tagName: merge(controls.tagName, {}),
-  textClassName: merge(controls.textClassName, {}),
-  icon: merge(controls.icon, {}),
+  icon: merge(controls.icon, {defaultValue: "cog"}),
   intent: merge(controls.intent, {}),
-  placeholder: merge(controls.placeholder, {})
 });

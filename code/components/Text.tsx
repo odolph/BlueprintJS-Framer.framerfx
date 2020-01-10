@@ -10,7 +10,7 @@ const style: React.CSSProperties = {
 };
 
 const InnerText: React.SFC = props => {
-  return <System.Text {...props} style={style} />;
+  return <System.Text {...props} />;
 };
 
 export const Text = withHOC(InnerText);
@@ -22,6 +22,4 @@ Text.defaultProps = {
 
 addPropertyControls(Text, {
   ellipsize: merge(controls.ellipsize, {}),
-  tagName: merge(controls.tagName, {}),
-  className: merge(controls.className, {})
 });

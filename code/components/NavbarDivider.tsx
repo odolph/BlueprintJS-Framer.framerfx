@@ -21,6 +21,4 @@ NavbarDivider.defaultProps = {
 };
 
 addPropertyControls(NavbarDivider, {
-  className: merge(controls.className, {}),
-  placeholder: merge(controls.placeholder, {})
 });

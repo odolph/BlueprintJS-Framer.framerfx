@@ -10,17 +10,15 @@ const style: React.CSSProperties = {
 };
 
 const InnerMenuDivider: React.SFC = props => {
-  return <System.MenuDivider {...props} style={style} />;
+  return <System.MenuDivider {...props} style={style}/>;
 };
 
 export const MenuDivider = withHOC(InnerMenuDivider);
 
 MenuDivider.defaultProps = {
   width: 150,
-  height: 50
+  height: 11
 };
 
 addPropertyControls(MenuDivider, {
-  title: merge(controls.title, {}),
-  className: merge(controls.className, {})
 });
