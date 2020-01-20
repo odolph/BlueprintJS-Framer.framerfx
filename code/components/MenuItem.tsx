@@ -3,6 +3,7 @@ import * as System from "@blueprintjs/core";
 import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/MenuItem";
 import { withHOC } from "../withHOC";
+import { Menu } from "@blueprintjs/core";
 
 const style: React.CSSProperties = {
   width: "100%",
@@ -21,11 +22,11 @@ MenuItem.defaultProps = {
 };
 
 addPropertyControls(MenuItem, {
-  text: merge(controls.text, {defaultValue: "Settings"}),
-  active: merge(controls.active, {defaultValue: true}),
+  text: merge(controls.text, { defaultValue: "Settings" }),
+  active: merge(controls.active, { defaultValue: true }),
   disabled: merge(controls.disabled, {}),
   label: merge(controls.label, {}),
   multiline: merge(controls.multiline, {}),
-  icon: merge(controls.icon, {defaultValue: "cog"}),
-  intent: merge(controls.intent, {}),
+  icon: merge(controls.icon, { defaultValue: "cog" }),
+  intent: merge(controls.intent, {})
 });

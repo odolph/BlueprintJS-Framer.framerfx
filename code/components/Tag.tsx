@@ -4,6 +4,7 @@ import { ControlType, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/Tag";
 import { withHOC } from "../withHOC";
 import { setHotkeysDialogProps } from "@blueprintjs/core";
+import { iconPropertyControl } from "../utils/iconPropertyControl";
 
 const style: React.CSSProperties = {
   width: "100%",
@@ -23,23 +24,23 @@ export const Tag = withHOC(InnerTag);
 
 Tag.defaultProps = {
   width: 120,
-  height: 30,
+  height: 30
 };
 
 addPropertyControls(Tag, {
   active: merge(controls.active, {}),
   fill: merge(controls.fill, {}),
-  icon: merge(controls.icon, {defaultValue: "blank"}),
+  icon: iconPropertyControl("Icon"),
   interactive: merge(controls.interactive, {}),
-  large: merge(controls.large, {defaultValue: true}),
+  large: merge(controls.large, { defaultValue: true }),
   minimal: merge(controls.minimal, {}),
   multiline: merge(controls.multiline, {}),
-  rightIcon: merge(controls.rightIcon, {defaultValue: "cross"}),
+  rightIcon: iconPropertyControl("Right Icon"),
   round: merge(controls.round, {}),
   intent: merge(controls.intent, {}),
   text: {
     title: "Title",
     defaultValue: "Default",
     type: ControlType.String
-}
+  }
 });
