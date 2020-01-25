@@ -10162,7 +10162,7 @@
                 "codeComponentIdentifier" : ".\/components\/Card.tsx_Card",
                 "codeComponentProps" : {
                   "elevation" : 1,
-                  "interactive" : true
+                  "interactive" : false
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
@@ -10690,7 +10690,7 @@
                 "codeComponentIdentifier" : ".\/components\/Card.tsx_Card",
                 "codeComponentProps" : {
                   "elevation" : 1,
-                  "interactive" : true
+                  "interactive" : false
                 },
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : true,
@@ -10921,7 +10921,7 @@
             "codeComponentIdentifier" : ".\/components\/Card.tsx_Card",
             "codeComponentProps" : {
               "elevation" : 1,
-              "interactive" : true
+              "interactive" : false
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
@@ -10937,7 +10937,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 182,
+            "height" : 188,
             "heightType" : 0,
             "id" : "zPQ9BX2zs",
             "intrinsicHeight" : 50,
@@ -11090,7 +11090,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.79433962264150948,
-            "centerAnchorY" : 0.43801652892561982,
+            "centerAnchorY" : 0.45454545454545453,
             "children" : [
 
             ],
@@ -11141,7 +11141,7 @@
             "radiusTopRight" : 0,
             "right" : 20,
             "rotation" : 0,
-            "top" : 91,
+            "top" : 95,
             "visible" : true,
             "width" : 178,
             "widthType" : 0
@@ -11149,9 +11149,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 61,
+            "bottom" : 57,
             "centerAnchorX" : 0.79433962264150948,
-            "centerAnchorY" : 0.68595041322314054,
+            "centerAnchorY" : 0.7024793388429752,
             "children" : [
 
             ],
@@ -11210,9 +11210,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 31,
+            "bottom" : 27,
             "centerAnchorX" : 0.79433962264150948,
-            "centerAnchorY" : 0.80991735537190079,
+            "centerAnchorY" : 0.82644628099173556,
             "children" : [
 
             ],
@@ -11225,7 +11225,7 @@
               "icon" : "folder-close",
               "isExpanded" : false,
               "isSelected" : false,
-              "label" : "Cant Touch THis",
+              "label" : "Cant Touch This",
               "secondaryLabel" : ""
             },
             "codeOverrideEnabled" : false,
@@ -11271,9 +11271,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 91,
+            "bottom" : 87,
             "centerAnchorX" : 0.79433962264150948,
-            "centerAnchorY" : 0.56198347107438018,
+            "centerAnchorY" : 0.57851239669421484,
             "children" : [
 
             ],

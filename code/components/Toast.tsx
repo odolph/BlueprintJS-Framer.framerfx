@@ -23,6 +23,5 @@ Toast.defaultProps = {
 addPropertyControls(Toast, {
     icon: merge(controls.icon, {}),
     message: merge(controls.message, {}),
-    timeout: merge(controls.timeout, {}),
     intent: merge(controls.intent, {}),
 })
