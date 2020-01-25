@@ -2469,9 +2469,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "icon" : "none",
               "intent" : "none",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2527,9 +2525,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : true,
-              "icon" : "none",
               "intent" : "none",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2576,7 +2572,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 73,
-            "centerAnchorX" : 0.17169811320754716,
+            "centerAnchorX" : 0.13962264150943396,
             "centerAnchorY" : 0.611353711790393,
             "children" : [
 
@@ -2587,7 +2583,6 @@
               "disabled" : false,
               "icon" : "trash",
               "intent" : "danger",
-              "rightIcon" : "none",
               "text" : "Delete"
             },
             "codeOverrideEnabled" : false,
@@ -2627,7 +2622,7 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 132,
+            "width" : 98,
             "widthType" : 0
           },
           {
@@ -2643,9 +2638,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "icon" : "none",
               "intent" : "primary",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2701,9 +2694,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : true,
-              "icon" : "none",
               "intent" : "primary",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2759,9 +2750,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "icon" : "none",
               "intent" : "success",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2817,9 +2806,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : true,
-              "icon" : "none",
               "intent" : "success",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2875,9 +2862,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "icon" : "none",
               "intent" : "warning",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2933,9 +2918,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : true,
-              "icon" : "none",
               "intent" : "warning",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -2991,9 +2974,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : false,
-              "icon" : "none",
               "intent" : "danger",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,
@@ -3049,9 +3030,7 @@
             "codeComponentIdentifier" : ".\/components\/Button.tsx_Button",
             "codeComponentProps" : {
               "disabled" : true,
-              "icon" : "none",
               "intent" : "danger",
-              "rightIcon" : "none",
               "text" : "Button"
             },
             "codeOverrideEnabled" : false,

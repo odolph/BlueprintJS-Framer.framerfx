@@ -4,21 +4,32 @@ import { ControlType, PropertyControls, addPropertyControls } from "framer";
 import { controls, merge } from "../generated/MenuItem";
 import { withHOC } from "../withHOC";
 import { Menu } from "@blueprintjs/core";
+import { hide } from "@blueprintjs/core/lib/esm/components/context-menu/contextMenu";
+
 
 const style: React.CSSProperties = {
   width: "100%",
-  height: "100%"
+  height: "100%",
+/* 
+  marginTop:-14,
+  marginLeft: -80,
+*/
 };
 
 const InnerMenuItem: React.SFC = props => {
-  return <System.MenuItem {...props} />;
+  return (
+    <menu class="bp3-menu" style={{padding: 0, minWidth: 80}}>
+      <System.MenuItem {...props} style={style}/>
+    </menu>
+  );
 };
 
 export const MenuItem = withHOC(InnerMenuItem);
 
 MenuItem.defaultProps = {
   width: 150,
-  height: 30
+  height: 30,
+  overflow: hide
 };
 
 addPropertyControls(MenuItem, {
