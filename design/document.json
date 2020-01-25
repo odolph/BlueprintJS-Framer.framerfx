@@ -3679,8 +3679,7 @@
             "codeComponentIdentifier" : ".\/components\/Spinner.tsx_Spinner",
             "codeComponentProps" : {
               "intent" : "none",
-              "size" : 24,
-              "value" : 0.5
+              "size" : 24
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3735,8 +3734,7 @@
             "codeComponentIdentifier" : ".\/components\/Spinner.tsx_Spinner",
             "codeComponentProps" : {
               "intent" : "success",
-              "size" : 28,
-              "value" : 0.5
+              "size" : 28
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3791,8 +3789,7 @@
             "codeComponentIdentifier" : ".\/components\/Spinner.tsx_Spinner",
             "codeComponentProps" : {
               "intent" : "primary",
-              "size" : 24,
-              "value" : 0.5
+              "size" : 24
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3847,8 +3844,7 @@
             "codeComponentIdentifier" : ".\/components\/Spinner.tsx_Spinner",
             "codeComponentProps" : {
               "intent" : "danger",
-              "size" : 28,
-              "value" : 0.59999999999999998
+              "size" : 28
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
