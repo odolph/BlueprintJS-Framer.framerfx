@@ -6,7 +6,7 @@ import { withHOC } from "../withHOC";
 
 const style: React.CSSProperties = {
   width: "100%",
-  height: "100%"
+  height: "100%",
 };
 
 const InnerSpinner: React.SFC = props => {
@@ -18,11 +18,10 @@ export const Spinner = withHOC(InnerSpinner);
 Spinner.defaultProps = {
   width: 50,
   height: 50,
-  value: .5,
 };
 
 addPropertyControls(Spinner, {
   intent: merge(controls.intent, {}),
-  size: merge(controls.size, {}),
-  value: merge(controls.value, {step: 0.1})
+  size: merge(controls.size, {defaultValue: 24}),
+  value: merge(controls.value, {defaultValue: 0.5, step: 0.1, min: 0, max: 1}),
 });

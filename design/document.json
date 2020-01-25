@@ -434,7 +434,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.13018867924528302,
+            "centerAnchorX" : 0.083018867924528297,
             "centerAnchorY" : 0.17985611510791366,
             "children" : [
 
@@ -490,14 +490,14 @@
             "rotation" : 0,
             "top" : 15,
             "visible" : true,
-            "width" : 80,
+            "width" : 30,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.27924528301886792,
+            "centerAnchorX" : 0.24528301886792453,
             "centerAnchorY" : 0.17985611510791366,
             "children" : [
 
@@ -553,7 +553,7 @@
             "rotation" : 0,
             "top" : 15,
             "visible" : true,
-            "width" : 80,
+            "width" : 44,
             "widthType" : 0
           },
           {
@@ -686,7 +686,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.13018867924528302,
+            "centerAnchorX" : 0.083018867924528297,
             "centerAnchorY" : 0.40287769784172661,
             "children" : [
 
@@ -742,14 +742,14 @@
             "rotation" : 0,
             "top" : 46,
             "visible" : true,
-            "width" : 80,
+            "width" : 30,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.27924528301886792,
+            "centerAnchorX" : 0.24528301886792453,
             "centerAnchorY" : 0.40287769784172661,
             "children" : [
 
@@ -805,7 +805,7 @@
             "rotation" : 0,
             "top" : 46,
             "visible" : true,
-            "width" : 80,
+            "width" : 44,
             "widthType" : 0
           },
           {
@@ -938,7 +938,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 42,
-            "centerAnchorX" : 0.13018867924528302,
+            "centerAnchorX" : 0.088679245283018862,
             "centerAnchorY" : 0.62589928057553956,
             "children" : [
 
@@ -994,14 +994,14 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 80,
+            "width" : 36,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 42,
-            "centerAnchorX" : 0.27924528301886792,
+            "centerAnchorX" : 0.25377358490566038,
             "centerAnchorY" : 0.62589928057553956,
             "children" : [
 
@@ -1057,7 +1057,7 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 80,
+            "width" : 53,
             "widthType" : 0
           },
           {
@@ -1190,7 +1190,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 11,
-            "centerAnchorX" : 0.13018867924528302,
+            "centerAnchorX" : 0.088679245283018862,
             "centerAnchorY" : 0.84892086330935257,
             "children" : [
 
@@ -1246,14 +1246,14 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 80,
+            "width" : 36,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 11,
-            "centerAnchorX" : 0.27924528301886792,
+            "centerAnchorX" : 0.25377358490566038,
             "centerAnchorY" : 0.84892086330935257,
             "children" : [
 
@@ -1309,7 +1309,7 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 80,
+            "width" : 53,
             "widthType" : 0
           },
           {
@@ -1507,7 +1507,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.38490566037735852,
+            "centerAnchorX" : 0.23018867924528302,
             "centerAnchorY" : 0.13364779874213836,
             "children" : [
 
@@ -1555,14 +1555,14 @@
             "rotation" : 0,
             "top" : 30,
             "visible" : true,
-            "width" : 360,
+            "width" : 196,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.38490566037735852,
+            "centerAnchorX" : 0.20283018867924529,
             "centerAnchorY" : 0.31289308176100628,
             "children" : [
 
@@ -1610,14 +1610,14 @@
             "rotation" : 0,
             "top" : 87,
             "visible" : true,
-            "width" : 360,
+            "width" : 167,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.38490566037735852,
+            "centerAnchorX" : 0.17358490566037735,
             "centerAnchorY" : 0.46698113207547171,
             "children" : [
 
@@ -1665,14 +1665,14 @@
             "rotation" : 0,
             "top" : 136,
             "visible" : true,
-            "width" : 360,
+            "width" : 136,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 108,
-            "centerAnchorX" : 0.38490566037735852,
+            "centerAnchorX" : 0.20283018867924529,
             "centerAnchorY" : 0.62106918238993714,
             "children" : [
 
@@ -1720,14 +1720,14 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 360,
+            "width" : 167,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 63,
-            "centerAnchorX" : 0.38490566037735852,
+            "centerAnchorX" : 0.20283018867924529,
             "centerAnchorY" : 0.76257861635220126,
             "children" : [
 
@@ -1775,14 +1775,14 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 360,
+            "width" : 167,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : 22,
-            "centerAnchorX" : 0.38490566037735852,
+            "centerAnchorX" : 0.20283018867924529,
             "centerAnchorY" : 0.89150943396226412,
             "children" : [
 
@@ -1830,7 +1830,7 @@
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 360,
+            "width" : 167,
             "widthType" : 0
           },
           {
@@ -2127,7 +2127,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.46037735849056605,
+            "centerAnchorX" : 0.40849056603773587,
             "centerAnchorY" : 0.11572052401746726,
             "children" : [
 
@@ -2176,7 +2176,7 @@
             "rotation" : 0,
             "top" : 14,
             "visible" : true,
-            "width" : 152,
+            "width" : 97,
             "widthType" : 0
           },
           {
@@ -3257,9 +3257,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 18,
-            "centerAnchorX" : 0.33402922755741127,
-            "centerAnchorY" : 0.50267379679144386,
+            "bottom" : null,
+            "centerAnchorX" : 0.30188679245283018,
+            "centerAnchorY" : 0.25935828877005346,
             "children" : [
 
             ],
@@ -3287,7 +3287,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 150,
+            "height" : 59,
             "heightType" : 0,
             "id" : "icO5xK5qT",
             "intrinsicHeight" : 150,
@@ -3316,9 +3316,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 34,
+            "bottom" : 53,
             "centerAnchorX" : 0.33962264150943394,
-            "centerAnchorY" : 0.68449197860962563,
+            "centerAnchorY" : 0.63368983957219249,
             "children" : [
 
             ],
@@ -3347,7 +3347,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 50,
+            "height" : 31,
             "heightType" : 0,
             "id" : "VA5Mxl7Gw",
             "intrinsicHeight" : 50,
@@ -3453,7 +3453,7 @@
               "animate" : true,
               "intent" : "none",
               "stripes" : true,
-              "value" : 0.5
+              "value" : 0.80000000000000004
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3469,7 +3469,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 50,
+            "height" : 8,
             "heightType" : 0,
             "id" : "takBYI3f0",
             "intrinsicHeight" : 50,
@@ -3498,7 +3498,7 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 71,
+            "bottom" : null,
             "centerAnchorX" : 0.30471698113207546,
             "centerAnchorY" : 0.60330578512396693,
             "children" : [
@@ -3513,7 +3513,7 @@
               "value" : 0.90000000000000002
             },
             "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
+            "constraintsLocked" : true,
             "deviceType" : null,
             "exportOptions" : [
 
@@ -3526,7 +3526,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 50,
+            "height" : 8,
             "heightType" : 0,
             "id" : "GEYocnV2w",
             "intrinsicHeight" : 50,
@@ -3547,7 +3547,7 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : null,
+            "top" : 121,
             "visible" : true,
             "width" : 265,
             "widthType" : 0
@@ -3555,9 +3555,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 31,
+            "bottom" : 74,
             "centerAnchorX" : 0.44433962264150945,
-            "centerAnchorY" : 0.76859504132231404,
+            "centerAnchorY" : 0.67975206611570249,
             "children" : [
 
             ],
@@ -3583,7 +3583,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 50,
+            "height" : 8,
             "heightType" : 0,
             "id" : "d2F8c34fV",
             "intrinsicHeight" : 50,
@@ -3612,9 +3612,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : -9,
+            "bottom" : 33,
             "centerAnchorX" : 0.30471698113207546,
-            "centerAnchorY" : 0.93388429752066116,
+            "centerAnchorY" : 0.84710743801652888,
             "children" : [
 
             ],
@@ -3640,7 +3640,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 50,
+            "height" : 8,
             "heightType" : 0,
             "id" : "qU0rFzP1C",
             "intrinsicHeight" : 50,
@@ -8457,7 +8457,7 @@
                       "fill" : false,
                       "icon" : "add",
                       "intent" : "warning",
-                      "interactive" : false,
+                      "interactive" : true,
                       "large" : true,
                       "minimal" : false,
                       "multiline" : false,
