@@ -25,7 +25,6 @@ addPropertyControls(FileInput, {
   fill: merge(controls.fill, {}),
   hasSelection: merge(controls.hasSelection, {}),
   large: merge(controls.large, {}),
-  text: merge(controls.text, {}),
-  buttonText: merge(controls.buttonText, {}),
-  placeholder: merge(controls.placeholder, {})
+  text: merge(controls.text, {defaultValue: "Upload File..."}),
+  buttonText: merge(controls.buttonText, {})
 });

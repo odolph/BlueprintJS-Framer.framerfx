@@ -23,5 +23,5 @@ addPropertyControls(TextArea, {
   growVertically: merge(controls.growVertically, {}),
   intent: merge(controls.intent, {}),
   disabled: merge(controls.disabled, {}),
-  placeholder: merge(controls.placeholder, { defaultValue: "Placeholder!"}),
+  placeholder: merge(controls.placeholder, { defaultValue: "Placeholder..."}),
 });

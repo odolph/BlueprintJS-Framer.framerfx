@@ -3,21 +3,31 @@ import { addPropertyControls } from "framer";
 import * as React from "react";
 import { controls, merge } from "../generated/MultiSlider";
 import { withHOC } from "../withHOC";
+import { useManagedState } from "../utils/useManagedState";
 
 const style: React.CSSProperties = {
   width: "100%",
   height: "100%"
 };
 
-const InnerMultiSlider: React.SFC<any> = ({ ...props }) => {
-  return <System.MultiSlider style={style} {...props} />;
+const InnerMultiSlider: React.SFC<any> = ({ value, ...props }) => {
+  const [currentValue, setValue] = useManagedState(value);
+  return (
+    <System.MultiSlider
+      onChange={value => setValue(value)}
+      value={currentValue}
+      style={style}
+      {...props}
+    />
+  );
 };
 
 export const MultiSlider = withHOC(InnerMultiSlider);
 
 MultiSlider.defaultProps = {
   width: 150,
-  height: 50
+  height: 50,
+  value: [2, 6]
 };
 
 addPropertyControls(MultiSlider, {

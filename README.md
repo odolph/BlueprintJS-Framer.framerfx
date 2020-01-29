@@ -28,6 +28,7 @@ Blueprint is Palantir's react-based UI toolkit for the web.
 ### Form Inputs
 - FileInput
 - TextArea
+- Input
 
 ### Typography
 - Blockquote
