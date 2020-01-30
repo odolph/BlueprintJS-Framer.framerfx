@@ -27,7 +27,7 @@ export const RangeSlider = withHOC(InnerRangeSlider);
 RangeSlider.defaultProps = {
   width: 150,
   height: 50,
-  value: [2, 6]
+  value: [2,7]
 };
 
 addPropertyControls(RangeSlider, {
