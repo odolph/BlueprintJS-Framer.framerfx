@@ -9,7 +9,8 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"id": "e29c1ae7-374d-4001-8f2c-5409f949aeb5"
+		"id": "e29c1ae7-374d-4001-8f2c-5409f949aeb5",
+		"displayName": "Blueprint UI Kit"
 	},
 	"author": "Paul Hautot",
 	"dependencies": {
@@ -24,5 +25,7 @@
 		"reactn": "^2.2.2",
 		"resize-observer-polyfill": "^1.5.1",
 		"tslib": "^1.10.0"
-	}
+	},
+	"name": "@framer/haut.blueprint-ui-kit",
+	"version": "1.0.0"
 }

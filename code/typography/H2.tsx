@@ -13,7 +13,7 @@ const style: React.CSSProperties = {
   height: "100%"
 };
 
-const InnerH2: React.SFC<any> = ({
+const InnerH2: React.SFC = ({
   text,
   ["children"]: _,
   willChangeTransform: __,

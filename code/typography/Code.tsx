@@ -10,7 +10,7 @@ const style: React.CSSProperties = {
     height: "100%",
 }
 
-const InnerCode: React.SFC<any> = ({
+const InnerCode: React.SFC = ({
     text,
     ["children"]: _,
     willChangeTransform: __,
