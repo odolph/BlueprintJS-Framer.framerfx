@@ -1,7 +1,7 @@
 # Overview
 This package is a set of the core components and icons from [Palantir's Blueprint Design System](https://blueprintjs.com/docs/) made by using the component-importer. Blueprint is Palantir's react-based UI toolkit for the web. 
 
-![Component Preview](metadata/artwork.png)
+![Component Preview](metadata/artwork2.png)
 
 ## Supported Components
 
@@ -32,6 +32,7 @@ This package is a set of the core components and icons from [Palantir's Blueprin
 
 ## Resources
 [Github Project](https://github.com/odolph/BlueprintJS-Framer.framerfx)
+
 [FramerX Web Project](https://beta.framer.com/projects/BlueprintJS-Web-qjvshZNPHHuQwIOfrMx7)
 
 Special thanks to Ferndando Hurtado for his help on this project. Look forward to support for more components in the future as well as an article on how to use the component importer to convert production design systems into framer components. Feel free to reach out to me with any questions at <https://twitter.com/PaulHautot>.
