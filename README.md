@@ -1,8 +1,6 @@
 # Overview
 This package is a set of the core components and icons from [Palantir's Blueprint Design System](https://blueprintjs.com/docs/) made by using the component-importer. Blueprint is Palantir's react-based UI toolkit for the web. 
 
-![Component Preview](metadata/artwork2.png)
-
 ## Supported Components
 
 | Component   	| Folder        	| Documentation                                                                     	|
@@ -25,7 +23,7 @@ This package is a set of the core components and icons from [Palantir's Blueprin
 | Checkbox    	| Form Controls 	| [Checkbox](https://blueprintjs.com/docs/#core/components/checkbox)                	|
 | FileInput   	| Form Inputs   	| [FileInput](https://blueprintjs.com/docs/#core/components/file-input)             	|
 | TextArea    	| Form Inputs   	| [TextArea](https://blueprintjs.com/docs/#core/components/text-inputs.text-area)   	|
-| Input       	| Form Inputs   	| [Input](https://blueprintjs.com/docs/#core/components/text-inputs)                	|
+| Input (Basic)      	| Form Inputs   	| [Input](https://blueprintjs.com/docs/#core/components/text-inputs)                	|
 | BlockQuote  	| Typography    	| [BlockQuote](https://blueprintjs.com/docs/#core/typography.block-quotes)          	|
 | Code        	| Typography    	| [Code](https://blueprintjs.com/docs/#core/typography.preformatted-text)           	|
 | Headings    	| Typography    	| [Headings](https://blueprintjs.com/docs/#core/typography.headings)                	|
@@ -35,4 +33,6 @@ This package is a set of the core components and icons from [Palantir's Blueprin
 
 [FramerX Web Project](https://beta.framer.com/projects/BlueprintJS-Web-qjvshZNPHHuQwIOfrMx7)
 
-Special thanks to Ferndando Hurtado for his help on this project. Look forward to support for more components in the future as well as an article on how to use the component importer to convert production design systems into framer components. Feel free to reach out to me with any questions at <https://twitter.com/PaulHautot>.
+[Store Package Page](https://packages.framer.com/package/haut/blueprint-ui-kit)
+
+Special thanks to Ferndando Hurtado for his help on this project. Look forward to support for more components in the future as well as an article on how to use the component importer to convert production design systems into framer components.
