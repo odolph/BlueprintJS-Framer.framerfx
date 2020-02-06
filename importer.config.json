@@ -7,25 +7,25 @@
     "out": "code/",
     "components": {
         "AbstractComponent": {
-            "ignore": false
+            "ignore": true
         },
         "AbstractPureComponent": {
-            "ignore": false
+            "ignore": true
         },
         "Alert": {
             "ignore": false
         },
         "Breadcrumb": {
-            "ignore": false
+            "ignore": true
         },
         "Breadcrumbs": {
-            "ignore": false
+            "ignore": true
         },
         "Button": {
             "ignore": false
         },
         "AnchorButton": {
-            "ignore": false
+            "ignore": true
         },
         "ButtonGroup": {
             "ignore": false
@@ -37,10 +37,10 @@
             "ignore": false
         },
         "Collapse": {
-            "ignore": false
+            "ignore": true
         },
         "CollapsibleList": {
-            "ignore": false
+            "ignore": true
         },
         "Dialog": {
             "ignore": false
@@ -49,13 +49,13 @@
             "ignore": false
         },
         "Drawer": {
-            "ignore": false
+            "ignore": true
         },
         "EditableText": {
             "ignore": false
         },
         "ControlGroup": {
-            "ignore": false
+            "ignore": true
         },
         "Switch": {
             "ignore": false
@@ -70,13 +70,13 @@
             "ignore": false
         },
         "FormGroup": {
-            "ignore": false
+            "ignore": true
         },
         "InputGroup": {
             "ignore": false
         },
         "NumericInput": {
-            "ignore": false
+            "ignore": true
         },
         "RadioGroup": {
             "ignore": false
@@ -109,31 +109,31 @@
             "ignore": false
         },
         "Pre": {
-            "ignore": false
+            "ignore": true
         },
         "Label": {
             "ignore": false
         },
         "OL": {
-            "ignore": false
+            "ignore": true
         },
         "UL": {
-            "ignore": false
+            "ignore": true
         },
         "HTMLSelect": {
-            "ignore": false
+            "ignore": true
         },
         "HTMLTable": {
-            "ignore": false
+            "ignore": true
         },
         "Hotkeys": {
-            "ignore": false
+            "ignore": true
         },
         "Icon": {
             "ignore": false
         },
         "Menu": {
-            "ignore": false
+            "ignore": true
         },
         "MenuDivider": {
             "ignore": false
@@ -142,46 +142,46 @@
             "ignore": false
         },
         "Navbar": {
-            "ignore": false
+            "ignore": true
         },
         "NavbarDivider": {
-            "ignore": false
+            "ignore": true
         },
         "NavbarGroup": {
-            "ignore": false
+            "ignore": true
         },
         "NavbarHeading": {
-            "ignore": false
+            "ignore": true
         },
         "NonIdealState": {
-            "ignore": false
+            "ignore": true
         },
         "OverflowList": {
-            "ignore": false
+            "ignore": true
         },
         "Overlay": {
-            "ignore": false
+            "ignore": true
         },
         "Text": {
             "ignore": false
         },
         "PanelStack": {
-            "ignore": false
+            "ignore": true
         },
         "Popover": {
-            "ignore": false
+            "ignore": true
         },
         "Portal": {
-            "ignore": false
+            "ignore": true
         },
         "ProgressBar": {
             "ignore": false
         },
         "ResizeSensor": {
-            "ignore": false
+            "ignore": true
         },
         "MultiSlider": {
-            "ignore": false
+            "ignore": true
         },
         "RangeSlider": {
             "ignore": false
@@ -193,31 +193,31 @@
             "ignore": false
         },
         "Tab": {
-            "ignore": false
+            "ignore": true
         },
         "Expander": {
-            "ignore": false
+            "ignore": true
         },
         "Tabs": {
-            "ignore": false
+            "ignore": true
         },
         "Tag": {
             "ignore": false
         },
         "TagInput": {
-            "ignore": false
+            "ignore": true
         },
         "Toast": {
             "ignore": false
         },
         "Toaster": {
-            "ignore": false
+            "ignore": true
         },
         "Tooltip": {
-            "ignore": false
+            "ignore": true
         },
         "Tree": {
-            "ignore": false
+            "ignore": true
         },
         "TreeNode": {
             "ignore": false
