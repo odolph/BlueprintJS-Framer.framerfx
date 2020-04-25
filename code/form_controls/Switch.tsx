@@ -23,7 +23,6 @@ Switch.defaultProps = {
 };
 
 addPropertyControls(Switch, {
-  innerLabelChecked: merge(controls.innerLabelChecked, {}),
   innerLabel: merge(controls.innerLabel, {}),
   alignIndicator: merge(controls.alignIndicator, {}),
   checked: merge(controls.checked, {}),

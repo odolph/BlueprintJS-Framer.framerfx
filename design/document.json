@@ -448,7 +448,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : false
@@ -511,7 +510,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "On",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : false
@@ -574,7 +572,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Small On",
               "labelElement" : "",
               "large" : false
@@ -637,7 +634,6 @@
               "disabled" : true,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Small On Disabled",
               "labelElement" : "",
               "large" : false
@@ -700,7 +696,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : false
@@ -763,7 +758,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "Off",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : false
@@ -826,7 +820,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Small Off",
               "labelElement" : "",
               "large" : false
@@ -889,7 +882,6 @@
               "disabled" : true,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Small Off Disabled",
               "labelElement" : "",
               "large" : false
@@ -952,7 +944,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : true
@@ -1015,7 +1006,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "On",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : true
@@ -1078,7 +1068,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Large On",
               "labelElement" : "",
               "large" : true
@@ -1141,7 +1130,6 @@
               "disabled" : true,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Large On Disabled",
               "labelElement" : "",
               "large" : true
@@ -1204,7 +1192,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : true
@@ -1267,7 +1254,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "Off",
-              "innerLabelChecked" : "",
               "label" : "",
               "labelElement" : "",
               "large" : true
@@ -1330,7 +1316,6 @@
               "disabled" : false,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Large Off",
               "labelElement" : "",
               "large" : true
@@ -1393,7 +1378,6 @@
               "disabled" : true,
               "inline" : false,
               "innerLabel" : "",
-              "innerLabelChecked" : "",
               "label" : "Large Off Disabled",
               "labelElement" : "",
               "large" : true
@@ -3259,7 +3243,7 @@
             "codeComponentProps" : {
               "disabled" : false,
               "icon" : "heart",
-              "intent" : "primary",
+              "intent" : "success",
               "rightIcon" : "caret-down",
               "text" : "View Favorites"
             },
@@ -7434,7 +7418,7 @@
             "codeComponentProps" : {
               "disabled" : false,
               "labelPrecision" : 0,
-              "max" : 10,
+              "max" : 16,
               "min" : 0,
               "stepSize" : 1,
               "value" : 6,
