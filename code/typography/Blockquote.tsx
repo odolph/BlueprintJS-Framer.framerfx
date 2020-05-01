@@ -26,7 +26,5 @@ Blockquote.defaultProps = {
 }
 
 addPropertyControls(Blockquote, {
-    checked: merge(controls.checked, {}),
-    disabled: merge(controls.disabled, {}),
     ...TextPropertyControl,
 })

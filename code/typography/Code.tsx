@@ -26,7 +26,5 @@ Code.defaultProps = {
 }
 
 addPropertyControls(Code, {
-    checked: merge(controls.checked, {}),
-    disabled: merge(controls.disabled, {}),
     ...TextPropertyControl
 })

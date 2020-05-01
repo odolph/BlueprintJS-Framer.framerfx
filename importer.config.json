@@ -13,13 +13,13 @@
             "ignore": true
         },
         "Alert": {
-            "ignore": false
+            "ignore": true
         },
         "Breadcrumb": {
-            "ignore": true
+            "ignore": false
         },
         "Breadcrumbs": {
-            "ignore": true
+            "ignore": false
         },
         "Button": {
             "ignore": false
@@ -28,7 +28,7 @@
             "ignore": true
         },
         "ButtonGroup": {
-            "ignore": false
+            "ignore": true
         },
         "Callout": {
             "ignore": false
@@ -43,7 +43,7 @@
             "ignore": true
         },
         "Dialog": {
-            "ignore": false
+            "ignore": true
         },
         "Divider": {
             "ignore": false
